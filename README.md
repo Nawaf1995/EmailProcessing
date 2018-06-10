@@ -28,3 +28,17 @@ Step 5: Finally, the system will display the result in web view to allow the use
 
 ## The purpose of this application?
 My purpose of this application is we as users of emails do not have to time to read all emails that we receive daily. Some of the emails are garbag or advertising that we never need to read them in our work time. So, with this kind of system we will be able to have a summery of our importatnt emails without wasting time to read all the inbox.
+
+## Requirement To start:
+You can use any back end programming language, I used java spring as a back end and Angular as front end.
+
+For the Backend (serer side):
+
+- Java spring using Eclipse IDE: https://spring.io/
+- Redis for storing the data in the session: https://redis.io/download
+- XAMPP as a server to run the application: https://www.apachefriends.org/download.html
+- Javamail API to access gmail account: https://github.com/javaee/javamail/releases
+
+For the Frontend (client side):
+- Angular 4: https://angular.io/
+
