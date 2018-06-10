@@ -52,7 +52,7 @@ Spring using MVC approache we will go into more details for it.
 Let's start first with the model. We have two models in this project:
 * The first model is for the user. which is contains user email and password
 
-... java
+...java
 package DataMiningProject.Model;
 
 public class User {
@@ -84,7 +84,8 @@ public class User {
 ... 
 
 The second model is the email model which will contain the email informations:
-... java
+
+...java
 package DataMiningProject.Model;
 
 import java.io.Serializable;
