@@ -42,5 +42,7 @@ For the Frontend (client side):
 - Angular 4: https://angular.io/
 
 ## Let's start with the Back end:
-
-
+- First install the XAMPP which will be our local server or use any other server.
+- Then install the java spring in the Eclipse IDE through the marketplace
+![alt text](https://imgur.com/2yV4Xfr.jpg)
+- Then import the project into the IDE.
