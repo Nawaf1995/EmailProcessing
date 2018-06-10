@@ -48,8 +48,9 @@ For the Frontend (client side):
 
 - Then import the project into the IDE.
 Spring using MVC approache we will go into more details for it.
-- Let's start first with the model. We have two models in this project:
-# The first model is for the user. which is contains user email and password
+
+Let's start first with the model. We have two models in this project:
+ The first model is for the user. which is contains user email and password
 ...
 package DataMiningProject.Model;
 public class User {
