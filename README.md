@@ -8,3 +8,4 @@ Since we are dealing with big data, this project will make our life easy while r
 - First read all emails from the Gmail inbox
 - Second filter these emails by remove the ads and emails that contain link to website
 - Thrid process the emails and then display the output
+## The Algorithm?
