@@ -52,7 +52,7 @@ Spring using MVC approache we will go into more details for it.
 Let's start first with the model. We have two models in this project:
 * The first model is for the user. which is contains user email and password
 
-...
+... java
 package DataMiningProject.Model;
 
 public class User {
@@ -81,5 +81,110 @@ public class User {
 		this.password = password;
 	}
 }
-...
+... 
 
+The second model is the email model which will contain the email informations:
+... java
+package DataMiningProject.Model;
+
+import java.io.Serializable;
+
+public class MailModel implements Serializable{
+	
+	private static final long serialVersionUID = 1L;
+
+	
+	private Long id;
+	private String receiver;
+	private String sender;
+	private String subject;
+	private String date;
+	private String time;
+	private String venue;
+	
+	public MailModel(){
+		super();
+	}
+
+	public MailModel(Long id,String receiver, String sender, String subject, String date, String time, String venue) {
+		super();
+		this.id = id;
+		this.receiver = receiver;
+		this.sender = sender;
+		this.subject = subject;
+		this.date = date;
+		this.time = time;
+		this.venue = venue;
+	}
+
+	public MailModel(Long id) {
+		this.id = id;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getReceiver() {
+		return receiver;
+	}
+
+	public void setReceiver(String receiver) {
+		this.receiver = receiver;
+	}
+
+	public String getSender() {
+		return sender;
+	}
+
+	public void setSender(String sender) {
+		this.sender = sender;
+	}
+
+	public String getSubject() {
+		return subject;
+	}
+
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+
+	public String getDate() {
+		return date;
+	}
+
+	public void setDate(String date) {
+		this.date = date;
+	}
+
+	public String getTime() {
+		return time;
+	}
+
+	public void setTime(String time) {
+		this.time = time;
+	}
+
+	public String getVenue() {
+		return venue;
+	}
+
+	public void setVenue(String venue) {
+		this.venue = venue;
+	}
+
+	@Override
+	public String toString() {
+		return "MailModel [id=" + id + ", receiver=" + receiver + ", sender=" + sender + ", subject=" + subject
+				+ ", date=" + date + ", time=" + time + ", venue=" + venue + "]";
+	}
+	
+	
+	
+}
+
+...
