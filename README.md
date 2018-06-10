@@ -10,8 +10,7 @@ Since we are dealing with big data, this project will make our life easy while r
 - Thrid process the emails and then display the output
 ## The Algorithm?
 Click the link to see the flow chart of the algorithm 
-[[https://github.com/username/repository/blob/master/img/octocat.png|alt=octocat]]
-https://imgur.com/89H7Mzg.jpg
+[[https://github.com/Nawaf1995/EmailProcessing.wiki.git]]
 
 ## More explaination: 
 
