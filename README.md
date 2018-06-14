@@ -33,7 +33,7 @@ You can use any back end programming language, I used java spring as a back end 
 
 For the Backend (serer side):
 
-- [Java spring using Eclipse IDE] {https://spring.io/}
+- [Java spring using Eclipse IDE] {https://spring.io/}.
 - [Redis for storing the data in the session] {https://redis.io/download}
 - [XAMPP as a server to run the application] {https://www.apachefriends.org/download.html}
 - [Javamail API to access gmail account] {https://github.com/javaee/javamail/releases}
