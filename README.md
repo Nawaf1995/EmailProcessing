@@ -42,12 +42,12 @@ For the Frontend (client side):
 - Angular 4: https://angular.io/
 
 ## The backend:
-- DataMiningApplication.java the server code runs from this file.
-- AccessingGmail.java this file contains code that can access the Gmail inbox and read the emails. Then these emails will be filtered to be passed to the next stage. Note: filtering in this stage is only separating the emails that contains plain/text from emails that have advertising content.
-- RedisConfig.java this the configuration of the redis. Redis is database that is stored in the user browser. Means, every user has different data based on his emails.
-- RequestFilter.java this file for communicating with the front end which is Angular.
-- GmailController.java this is the most important file in the project. The controller is the one who takes the request and forward it to the appropriate service to response back to the request.
+- **DataMiningApplication.java** the server code runs from this file.
+- **AccessingGmail.java** this file contains code that can access the Gmail inbox and read the emails. Then these emails will be filtered to be passed to the next stage. Note: filtering in this stage is only separating the emails that contains plain/text from emails that have advertising content.
+- **RedisConfig.java** this the configuration of the redis. Redis is database that is stored in the user browser. Means, every user has different data based on his emails.
+- **RequestFilter.java** this file for communicating with the front end which is Angular.
+- **GmailController.java** this is the most important file in the project. The controller is the one who takes the request and forward it to the appropriate service to response back to the request.
 - Then we have the models user model and Mailmodel. In spring MVC we need to have a model which contains the attribute of the model and constructor.
-- EmailExtraction.java this whill do the processing after recevicing the data from the the AccessingGmail to start extracting the email
+- **EmailExtraction.java** this whill do the processing after recevicing the data from the the AccessingGmail to start extracting the email
 
 ## The Fontend:
