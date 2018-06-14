@@ -37,7 +37,6 @@ For the Backend (serer side):
 - [Redis for storing the data in the session](https://redis.io/download).
 - [XAMPP as a server to run the application](https://www.apachefriends.org/download.html).
 - [Javamail API to access gmail account](https://github.com/javaee/javamail/releases).
-This site was built using [GitHub Pages](https://pages.github.com/).
 
 For the Frontend (client side):
 - [Angular 4](https://angular.io/)
