@@ -1,4 +1,4 @@
-Email Processing
+***Email Processing***
 # Abstract:
 Every one has an email account full of emails that be read or manage. We receive hundreds of emails daily and some of these emails are garbag or ads. Therefore, we want an application that is able to read all emails and manage them based on what we need from the email. So, the idea of this applcaition is to read all emails from the inbox and manange them. At the end, we will have only the emails that we want, on the other words plain text email that is readable by human and all other ads will not be read by the application.
 
@@ -51,3 +51,18 @@ For the Frontend (client side):
 - **EmailExtraction.java** this whill do the processing after recevicing the data from the the AccessingGmail to start extracting the email
 
 ## The Fontend:
+For the front end we will use Angular as front end. This new version of Angular it is using MVC approach like Spring. So, we will do the same here as we did in the back end. For the front end will have the following:
+- Models: **Emails.TS and users.TS** (**TS means type script**)
+- Controller: we only have one controller here **access.Service.TS** which will all the methods that will communicate with the back end.
+- views: which is the html pages in the components folder
+
+## To run the project:
+To the run the project you should run the front end and the back end separately.
+- First: run the back end from Eclipse IDE on port 8080 before doing this, two things must be done
+        - Start the server in my case I am using XAMPP
+        - start the redis server
+- After running the server and the redis, then launch the program fro Eclipse IDE
+- Second: run the front end by going to the front end folder and open the command line, then type **ng serve**
+- Finally, after running both client and server go to your favorite browser and type in the URL: **localhost:4200** 
+## License:
+This is a free project you have the right to use where ever you want.
