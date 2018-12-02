@@ -55,6 +55,7 @@ For the front end we will use Angular as front end. This new version of Angular 
 - Models: **Emails.TS and users.TS** (**TS means type script**)
 - Controller: we only have one controller here **access.Service.TS** which will all the methods that will communicate with the back end.
 - views: which is the html pages in the components folder
+**Notice:** in order for the front end to work you must install **node_modules**.
 
 ## To run the project:
 To the run the project you should run the front end and the back end separately.
