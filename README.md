@@ -54,7 +54,7 @@ For the Frontend (client side):
 For the front end we will use Angular as front end. This new version of Angular it is using MVC approach like Spring. So, we will do the same here as we did in the back end. For the front end will have the following:
 - Models: **Emails.TS and users.TS** (**TS means type script**)
 - Controller: we only have one controller here **access.Service.TS** which will all the methods that will communicate with the back end.
-- views: which is the html pages in the components folder
+- views: which is the html pages in the components folder                                                      
 **Notice:** in order for the front end to work you must install **node_modules**.
 
 ## To run the project:
